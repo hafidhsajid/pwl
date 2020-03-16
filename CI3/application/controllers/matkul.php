@@ -34,9 +34,9 @@ class matkul extends CI_Controller
     {
 
         $data['title'] = 'Form Menambahkan Data Mahasiswa';
-        
+
         $this->form_validation->set_rules('kode', 'Kode', 'required');
-        $this->form_validation->set_rules('matakuliah', 'Matakuliah', 'required');
+        $this->form_validation->set_rules('matkul', 'Matkul', 'required');
         $this->form_validation->set_rules('jam', 'Jam', 'required|numeric');
         $this->form_validation->set_rules('semester', 'Semester', 'required|numeric');
         

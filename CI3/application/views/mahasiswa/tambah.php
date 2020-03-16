@@ -28,11 +28,10 @@
                             <div class="form-group">
                                 <label for="jurusan">jurusan</label>
                                 <select class="form-control" id="jurusan" name="jurusan">
-                                    <option selected>----------</option>   
-                                    <?php foreach($jurusan as $key) : ?>
-                                        <option value="<?= $key?>" ><?= $key ?>
-                                    </option>
-                                    <?php endforeach ?>
+                                    <option selected>----------</option>
+                                    <option value="kimia">Kimia</option>
+                                    <option value="informatika">informatika</option>
+                                    <option value="mesin">mesin</option>
                                 </select>
                             </div>
                             <button type="submit" name="submit" class="btn btn-primary float-right"> submit </button>

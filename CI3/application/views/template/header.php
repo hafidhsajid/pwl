@@ -8,11 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <style>
-      .badge{
-        margin-left:3px;
-      }
-    </style>
     <!-- <title>Hello, world!</title> -->
     <title><?= $title ?></title>
   </head>
@@ -30,10 +25,10 @@
         <a class="nav-link" href="<?= base_url()?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url()?>mahasiswa">Data Mahasiswa</a>
+        <a class="nav-link" href="<?= base_url()?>">Data Mahasiswa</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url()?>matkul">Mata Kuliah</a>
+        <a class="nav-link" href="<?= base_url()?>">about</a>
       </li>
     </ul>
   </div>

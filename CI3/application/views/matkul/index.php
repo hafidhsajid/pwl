@@ -26,7 +26,7 @@
         </thead>
         <tbody>
             <th>Kode</th>
-            <th>Mata Kuliah</th>
+            <th>Matkul</th>
             <th>Jam</th>
             <th>Semester</th>
             <?php
@@ -34,24 +34,24 @@
             ?>
             <tr>
                 <td><?= $mhs['kode']; ?>
-                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id_matkul'];?>" 
+                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id'];?>" 
                 class="badge badge-danger float-right"
                 onclick="return confirm('Data ini akan dihapus');">Hapus</a> -->
                 </td>
-                <td><?= $mhs['matakuliah']; ?>
-                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id_matkul'];?>" 
+                <td><?= $mhs['matkul']; ?>
+                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id'];?>" 
                 class="badge badge-danger float-right"
                 onclick="return confirm('Data ini akan dihapus');">Hapus</a> -->
                 </td>
                 
                 <td><?= $mhs['jam']; ?>
-                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id_matkul'];?>" 
+                <!-- <a href="<?= base_url();?>/hapus/<?= $mhs['id'];?>" 
                 class="badge badge-danger float-right"
                 onclick="return confirm('Data ini akan dihapus');">Hapus</a> -->
                 </td>
 
                 <td><?= $mhs['semester']; ?>
-                <a href="<?= base_url();?>matkul/hapus/<?= $mhs['id_matkul'];?>" 
+                <a href="<?= base_url();?>matkul/hapus/<?= $mhs['id'];?>" 
                 class="badge badge-danger float-right"
                 onclick="return confirm('Data ini akan dihapus');">Hapus</a>
                 </td>

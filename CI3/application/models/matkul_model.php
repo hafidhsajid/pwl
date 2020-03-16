@@ -10,23 +10,23 @@ class matkul_model extends CI_Model {
 
         // return $query -> result_array();
 
-        return $this->db->get('matakuliah')->result_array();
+        return $this->db->get('matkul')->result_array();
     }
 
     public function tambahdatamhs() {
         $data = [
             "kode" => $this->input->post('kode',true),
-            "matkul" => $this->input->post('matakuliah',true),
+            "matkul" => $this->input->post('matkul',true),
             "jam" => $this->input->post('jam',true),
             "semester" => $this->input->post('semester',true),
         ];
-        $this->db->insert('matakuliah', $data);
+        $this->db->insert('matkul', $data);
         
     }
     public function hapusdatamhs($id)
     {
         $this->db->where('id', $id);
-        $this->db->delete('matakuliah');
+        $this->db->delete('matkul');
         
     }
 
