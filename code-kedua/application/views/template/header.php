@@ -1,15 +1,17 @@
-<!doctype html>
-<html lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?= base_url();?>assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Style CSS-->
+    <!-- style CSS -->
     <style>
         .badge {
             margin-left: 3px;
@@ -17,12 +19,11 @@
     </style>
 
     <!-- <title>Hello, world!</title> -->
-    <title><?= $title ?></title>
+    <title>Movie Search</title>
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">CI</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="<?= base_url(); ?>home">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link active" href="<?= base_url(); ?>mahasiswa">Data Mahasiswa</a>
-                    <a class="nav-item nav-link active" href="<?= base_url(); ?>matkul">Mata Kuliah</a>
+                    <a class="nav-item nav-link active" href="<?= base_url(); ?>movie">Movie Search</a>
                     <a class="nav-item nav-link active" href="<?= base_url(); ?>">About</a>
                     <a class="nav-link" href="<?= base_url(); ?>login/logout">Logout</a>
                     <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
